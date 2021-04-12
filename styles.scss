@@ -1,0 +1,62 @@
+/** @format */
+$colorgrey: #4e4e4e;
+$colorwhite: #fff;
+$position: relative;
+
+html,
+body {
+  background: #c3cfe2;
+  max-width: 50%;
+}
+.testimonial {
+  position: $position;
+  width: 550px;
+  height: 700px;
+  margin: 240px auto;
+  left: 1050px;
+  background: $colorwhite;
+  top: 200px;
+  box-shadow: 1px 5px 3px 4px rgb(168, 168, 168);
+  border-radius: 40px;
+  &__footer {
+    position: $position;
+    width: 550px;
+    height: 250px;
+    margin: 240px auto;
+    background: #686de0;
+    top: 450px;
+    border-radius: 0px 0px 40px 40px;
+  }
+  &__img {
+    position: $position;
+    border-radius: 50%;
+    bottom: 935px;
+    right: 210px;
+    transform: scale(0.2);
+    border: 40px solid $colorwhite;
+  }
+  &__tekstbox {
+    position: $position;
+    bottom: 450px;
+    left: 80px;
+    width: 450px;
+    text-align: left;
+    font-size: 30px;
+  }
+  &__tekst {
+    line-height: 45px;
+    color: $colorgrey;
+  }
+  &__h1 {
+    position: $position;
+    bottom: 230px;
+    left: 150px;
+    color: $colorwhite;
+  }
+  &__link {
+    position: $position;
+    bottom: 250px;
+    left: 200px;
+    color: $colorgrey;
+  }
+}
