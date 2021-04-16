@@ -2,17 +2,13 @@
 html,
 body {
   background: #c3cfe2;
-  max-width: 50%;
 }
 
 .testimonial {
   position: relative;
   width: 550px;
   height: 700px;
-  margin: 240px auto;
-  left: 1050px;
   background: #fff;
-  top: 200px;
   -webkit-box-shadow: 1px 5px 3px 4px #a8a8a8;
           box-shadow: 1px 5px 3px 4px #a8a8a8;
   border-radius: 40px;
