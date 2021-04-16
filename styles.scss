@@ -6,16 +6,12 @@ $position: relative;
 html,
 body {
   background: #c3cfe2;
-  max-width: 50%;
 }
 .testimonial {
   position: $position;
   width: 550px;
   height: 700px;
-  margin: 240px auto;
-  left: 1050px;
   background: $colorwhite;
-  top: 200px;
   box-shadow: 1px 5px 3px 4px rgb(168, 168, 168);
   border-radius: 40px;
   &__footer {
@@ -60,3 +56,4 @@ body {
     color: $colorgrey;
   }
 }
+
